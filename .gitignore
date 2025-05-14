@@ -1,17 +1,18 @@
-.eunit
-*.o
-*.beam
-*.plt
-erl_crash.dump
-.concrete/DEV_MODE
 
-# rebar 2.x
-.rebar
-rel/example_project
-ebin/*.beam
-deps
-
-# rebar 3
-.rebar3
-_build/
-_checkouts/
+/.phpunit.cache
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+.env
+.env.backup
+.env.production
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+/.fleet
+/.idea
+/.vscode
